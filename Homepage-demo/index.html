@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&family=Roboto:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4b79fe500c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <img class="logo" src="images/leave.png" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Cameras</a></li>
+                    <li><a href="#">Computers</a></li>
+                    <li><a href="#">Gadgets</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- welcome note -->
+        <div class="welcome">
+            <h1>Latest Product Reviews</h1>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. 
+            </p>
+        </div>
+        <!-- section for Gallery -->
+        <div class="gallery">
+            <div class="image">
+                <div class="image-container">
+                    <img src="images/Phone.PNG" alt="iphone">
+                </div>
+                <div class="article">
+                <p id="date1">January 23, 2018</p>
+                    <h4>iphone X Review</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="image">
+                <div class="image-container">
+                    <img src="images/PC.PNG" alt="PC">
+                </div>
+                <div class="article">
+                    <p id="date1">March 18, 2018</p>
+                    <h4>Laptop setup</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div> 
+            </div>
+            <div class="image">
+                <div class="image-container">
+                    <img src="images/Camera.PNG" alt="Camera">
+                </div>
+                <div class="article">
+                    <p id="date1">June 11, 2018</p>
+                    <h4>Camera Lady</h4>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="call-to-action">
+            <input type="button" value="View All Reviews" id="view">
+        </div> 
+        <div class="enquiry-section">
+            
+            <div class="enquiry">
+                <h4 id="contactUs">Contact us</h4>
+                <form action="mailto:nmechachibuzo@gmail.com" class="form-page">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" placeholder="Your first name .." required>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" placeholder="Your last name .." required>
+                    <label for="country">country</label>
+                    <input list="country" name="country" placeholder="Select Country">
+                    <datalist name="country" id="country">
+                        <option value="Canada">Canada</option>
+                        <option value="USA">USA</option>
+                        <option value="USA">Romania</option>
+                    </datalist>
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="phoneNumber" placeholder="Your phone number.." maxlength="10" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="sample@gmail.com">
+                    <label for="textarea">Message</label>
+                    <input type="textarea" id="textarea" placeholder="Optional">
+                    <input type="submit" id="button" name="Submit">
+                </form>
+            </div>
+            <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d345142.8154209141!2d-53.10788185626764!3d47.48157020748203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0ca38e6b0aa261%3A0x9e1fd4001f12261f!2sSt.%20John&#39;s%2C%20NL!5e0!3m2!1sen!2sca!4v1645488070435!5m2!1sen!2sca" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy">Address</iframe></div>     
+        </div>
+    </main>
+
+    <footer class="end">
+        <div class="icons">
+            <i class="fa-solid fa-business-time"></i>
+        </div>
+        <div class="icons">
+           <i class="fa-solid fa-code"></i>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-business-time"></i>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
